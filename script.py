@@ -30,6 +30,7 @@ def greet_three(greeting: str) -> str:
 r = requests.get("https://coreyms.com")
 print(r.status_code)
 print(r.ok)
+print(r.headers)
 
 """Faire tourner le code dans le terminal avec les input"""
 # name = input("Your name? ")
